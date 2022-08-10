@@ -1,0 +1,14 @@
+replicas: 1
+
+namespace: default
+env:
+  azdoUrl: https://dev.azure.com/x-ops
+  azdoPool: dynamic-pool
+
+image:
+  repository: ghcr.io/rizwan-kh/azure-devops-pipeline-agent
+  tag: init
+  pullPolicy: Always
+
+azdoToken: xyz
+

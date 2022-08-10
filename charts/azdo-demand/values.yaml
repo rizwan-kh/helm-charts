@@ -1,0 +1,7 @@
+namespace: default
+agent:
+  repository: ghcr.io/rizwan-kh/azure-devops-pipeline-agent
+  tag: on-demand
+  pullPolicy: Always
+
+
